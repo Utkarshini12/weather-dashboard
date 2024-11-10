@@ -2,10 +2,16 @@ body {
   margin: 0;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(-45deg, #000000,#151024, rgb(4, 1, 23), rgb(2, 44, 67));
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    #151024,
+    rgb(4, 1, 23),
+    rgb(2, 44, 67)
+  );
   background-size: 400% 400%;
   animation: gradientBG 45s ease infinite;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   background-image: url("./assets/weatherbg.jpg");
 }
@@ -15,14 +21,12 @@ body {
   align-items: center;
 }
 
-
 .icon {
   border-radius: 50%;
 
   width: 150px;
 }
 .glass-card {
-
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.066);
   /* border: 2px solid rgba(255, 255, 255, 0.1); */
@@ -31,11 +35,9 @@ body {
   text-align: center;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
-  
 }
 
 .glass-cards {
-
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.066);
   /* border: 2px solid rgba(255, 255, 255, 0.1); */
@@ -44,14 +46,11 @@ body {
   text-align: center;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
-  
 }
 
 .glass-card:hover {
   transform: scale(1.05);
 }
-
-
 
 @keyframes gradientBG {
   0% {
@@ -65,37 +64,25 @@ body {
   100% {
     background-position: 0% 50%;
   }
-} 
-
-
-
-
+}
 
 .weather-bg-low {
   background-image: url("./assets/weatherbg.jpg");
   background-size: "cover";
-
-
 }
 
 .weather-bg-moderate {
   background-image: url("./assets/weatherbg.jpg");
   background-size: "cover";
-
-
 }
 
 .weather-bg-high {
   background-image: url("./assets/weather-sunny.png");
   background-size: "cover";
-
-
 }
 
-.table-transparent {
-  background-color: rgba(0, 0, 0, 0.5);
-}
+.table_custom { --bs-table-bg: transparent !important; }
 
-.table-hover tbody tr:hover td {
+/* .table-hover tbody tr:hover td {
   background: #999;
-}
+} */

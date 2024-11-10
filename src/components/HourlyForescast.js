@@ -1,6 +1,6 @@
 export const HourlyForecasts = ({isCelsius, toggleTemperatureUnit, hourlyForecast, getHourlyTemperature}) => {
     return( 
-        <div className="glass-cards  p-4">
+        <div className="glass-cards p-4">
                     <div className="d-flex justify-content-between align-items-center">
                       <h5 className="text-start text-white-50">
                         <i className="bi bi-clock px-2 text-white-50"></i>Hourly
@@ -27,21 +27,21 @@ export const HourlyForecasts = ({isCelsius, toggleTemperatureUnit, hourlyForecas
                     </div>
 
                     <hr />
-                    <table className="table  table-borderless table-hover text-white-50">
+                    <table className="table table-borderless table_custom  ">
                       <tbody>
-                        {hourlyForecast.map((hour, index) => (
+                        {hourlyForecast?.map((hour, index) => (
                           <tr key={index}>
-                            <td>
+                            <td className="text-white-50">
                               {new Date(hour.DateTime).toLocaleTimeString([], {
                                 hour: "2-digit",
                                 minute: "2-digit",
                               })}
                             </td>
 
-                            <td>
+                            <td className="text-white-50 fw-bold">
                               {getHourlyTemperature(hour.Temperature?.Value)}
                             </td>
-                            <td>{hour.IconPhrase}</td>
+                            <td className="text-white-50">{hour.IconPhrase}</td>
                             <td>
                               <img
                                 src={`https://developer.accuweather.com/sites/default/files/${hour.WeatherIcon.toString().padStart(
