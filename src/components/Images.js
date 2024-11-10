@@ -1,0 +1,48 @@
+
+import n1 from '../assets/icons/1.svg'
+import n2 from '../assets/icons/2.svg'
+import n3 from '../assets/icons/3.svg'
+import n4 from '../assets/icons/4.svg'
+import n5 from '../assets/icons/5.svg'
+import n6 from '../assets/icons/6.svg'
+import n7 from '../assets/icons/7.svg'
+import n8 from '../assets/icons/8.svg'
+import n11 from '../assets/icons/11.svg'
+import n12 from '../assets/icons/12.svg'
+import n13 from '../assets/icons/13.svg'
+import n14 from '../assets/icons/14.svg'
+import n15 from '../assets/icons/15.svg'
+import n16 from '../assets/icons/16.svg'
+import n17 from '../assets/icons/17.svg'
+import n18 from '../assets/icons/18.svg'
+import n19 from '../assets/icons/19.svg'
+import n20 from '../assets/icons/20.svg'
+import n21 from '../assets/icons/21.svg'
+import n22 from '../assets/icons/22.svg'
+import n23 from '../assets/icons/23.svg'
+import n24 from '../assets/icons/24.svg'
+import n25 from '../assets/icons/25.svg'
+import n26 from '../assets/icons/26.svg'
+import n27 from '../assets/icons/27.svg'
+import n30 from '../assets/icons/30.svg'
+import n31 from '../assets/icons/31.svg'
+import n32 from '../assets/icons/32.svg'
+import n33 from '../assets/icons/33.svg'
+import n34 from '../assets/icons/34.svg'
+import n35 from '../assets/icons/35.svg'
+import n36 from '../assets/icons/36.svg'
+import n37 from '../assets/icons/37.svg'
+import n38 from '../assets/icons/38.svg'
+import n39 from '../assets/icons/39.svg'
+import n40 from '../assets/icons/40.svg'
+import n41 from '../assets/icons/41.svg'
+import n42 from '../assets/icons/42.svg'
+import n43 from '../assets/icons/43.svg'
+import n44 from '../assets/icons/44.svg'
+
+
+const images = [
+    'nothnig', n1, n2, n3, n4, n5, n6, n7, n8, n8, n8, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, n21, n22, n23, n24, n25, n26, n27, n27, n30, n30, n31,n32, n33, n34, n35, n36, n37, n38, n39, n40,n41, n42, n43, n44
+]
+
+export default images
